@@ -7,6 +7,13 @@ namespace API.Dtos
 {
     public class PrendaDto
     {
-        
+        public int IdPrenda { get; set; }
+        public string Nombre { get; set; }
+        public double ValorUnitCop { get; set; }
+        public double ValorUnitUsd { get; set; }
+        public int IdEstado { get; set; }
+        public int IdTipoProteccion { get; set; }
+        public int IdGenero { get; set; }
+
     }
 }
