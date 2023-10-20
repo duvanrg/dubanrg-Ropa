@@ -18,8 +18,8 @@ namespace Core.Entities
         public int Cantidad { get; set; }
         [Required]
         public double ValorUnit { get; set; }
-        public ICollection<Venta> Ventas { get; set; }
-        public ICollection<Inventario> Productos { get; set; }
-        public ICollection<Talla> Tallas { get; set; }
+        public Venta Venta { get; set; }
+        public Inventario Producto { get; set; }
+        public Talla Talla { get; set; }
     }
 }

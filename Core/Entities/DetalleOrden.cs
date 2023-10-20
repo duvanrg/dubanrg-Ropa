@@ -23,5 +23,6 @@ namespace Core.Entities
         public Orden Orden { get; set; }
         public Prenda Prenda { get; set; }
         public Color Color { get; set; }
+        public Estado Estado{ get; set; }
     }
 }
