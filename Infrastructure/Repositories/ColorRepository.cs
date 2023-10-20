@@ -10,11 +10,11 @@ namespace Infrastructure.Repositories
 {
     public class ColorRepository : GenericRepository<Color>, IColor
     {
-        private readonly ApiContext context;
+        private readonly ApiContext _context;
 
         public ColorRepository(ApiContext context) : base(context)
         {
-            context = context;
+            _context = context;
         }
     }
 }
