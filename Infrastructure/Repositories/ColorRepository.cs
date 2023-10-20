@@ -14,7 +14,7 @@ namespace Infrastructure.Repositories
 
         public ColorRepository(ApiContext context) : base(context)
         {
-            this.context = context;
+            context = context;
         }
     }
 }

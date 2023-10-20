@@ -14,7 +14,7 @@ namespace Infrastructure.Repositories
 
         public GeneroRepository(ApiContext context) : base(context)
         {
-            this._context = context;
+            _context = context;
         }
     }
 }

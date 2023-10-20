@@ -14,7 +14,7 @@ namespace Infrastructure.Repositories
 
         public DetalleVentaRepository(ApiContext context) : base(context)
         {
-            this._context = context;
+            _context = context;
         }
     }
 }

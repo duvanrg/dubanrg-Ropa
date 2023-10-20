@@ -14,7 +14,7 @@ namespace Infrastructure.Repositories
 
         public PrendaRepository(ApiContext context) : base(context)
         {
-            this._context = context;
+            _context = context;
         }
     }
 }
