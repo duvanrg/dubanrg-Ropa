@@ -13,7 +13,7 @@ namespace Persistencia.Data.Configuration
             builder.Property (e => e.Id);
 
             builder. Property (p => p.Fecha)
-            .HasColumnType("datatime");
+            .HasColumnType("datetime");
 
             builder.HasOne (p => p.Empleado)
             .WithMany (p => p.Ordenes)

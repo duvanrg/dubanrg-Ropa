@@ -10,14 +10,14 @@ namespace Persistencia.Data.Configuration
         {
             builder.ToTable("Municipio");
             builder.HasKey(e => e.Id);
-            builder.Property (e => e.Id);
+            builder.Property(e => e.Id);
 
-            builder.Property (p => p.Nombre)
+            builder.Property(p => p.Nombre)
             .IsRequired()
             .HasMaxLength(40);
-            
-            builder.HasOne (p => p.Departamento)
-            .WithMany (p => p.Municipios)
+
+            builder.HasOne(p => p.Departamento)
+            .WithMany(p => p.Municipios)
             .HasForeignKey(p => p.IdDepartamento);
         }
     }

@@ -24,13 +24,13 @@ namespace Persistencia.Data.Configuration
             .IsRequired()
             .HasMaxLength(40);
 
-            builder.HasOne (p => p.TipoPersona)
-            .WithMany (p => p.Proveedores)
+            builder.HasOne(p => p.TipoPersona)
+            .WithMany(p => p.Proveedores)
             .HasForeignKey(p => p.IdtipoPersona);
 
             builder.HasOne (p => p.Municipio)
             .WithMany (p => p.Proveedores)
-            .HasForeignKey(p => p.Municipio);
+            .HasForeignKey(p => p.IdMunicipio);
         }
     }
 }
