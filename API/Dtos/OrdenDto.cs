@@ -7,6 +7,7 @@ namespace API.Dtos
 {
     public class OrdenDto
     {
+        public int Id { get; set; }
         public DateTime Fecha { get; set; }
         public int IdEmpleado { get; set; }
         public int IdCliente { get; set; }
