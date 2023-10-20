@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Repositories
+namespace Infrastructure.Data.Configurations
 {
-    public class DetallerOrdenRepository
+    public class DetalleOrdenConfiguration
     {
         
     }

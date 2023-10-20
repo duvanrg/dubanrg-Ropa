@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Repositories
+namespace Core.Interfaces
 {
-    public class InsumosRepository
+    public class IDetalleOrden
     {
         
     }

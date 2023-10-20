@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Data.Configurations
 {
-    public class InventarioTablaConfiguration
+    public class InventarioTallaConfiguration
     {
         
     }

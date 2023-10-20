@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Core.Interfaces
+namespace Infrastructure.Data.Configurations
 {
-    public class IInventarioTabla
+    public class InsumoConfiguration
     {
         
     }

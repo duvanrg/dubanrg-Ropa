@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace API.Dtos
+namespace Infrastructure.Repositories
 {
-    public class InsumosDto
+    public class InsumoRepository
     {
         
     }

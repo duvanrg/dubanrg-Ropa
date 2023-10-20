@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Repositories
 {
-    public class InventarioTablaRepository
+    public class DetalleOrdenRepository
     {
         
     }

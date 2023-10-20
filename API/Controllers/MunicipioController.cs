@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Core.Entities
+namespace API.Controllers
 {
-    public class Municipios
+    public class MunicipioController
     {
         
     }

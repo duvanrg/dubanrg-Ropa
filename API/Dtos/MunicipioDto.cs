@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Core.Interfaces
+namespace API.Dtos
 {
-    public class IDetallerOrden
+    public class MunicipioDto
     {
         
     }

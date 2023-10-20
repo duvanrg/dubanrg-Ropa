@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Data.Configurations
+namespace API.Dtos
 {
-    public class InsumosConfiguration
+    public class DetalleOrdenDto
     {
         
     }

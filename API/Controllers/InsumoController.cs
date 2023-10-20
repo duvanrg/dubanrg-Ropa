@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace API.Controllers
 {
-    public class DetallerOrdenController
+    public class InsumoController
     {
         
     }
