@@ -6,18 +6,17 @@ using System.Threading.Tasks;
 
 namespace Core.Entities
 {
-    public class Proveedor : BaseEntity
+    public class Insumo : BaseEntity
     {
-        [Required]
-        public string NitProveedor { get; set; }
         [Required]
         public string Nombre { get; set; }
         [Required]
-        public int IdtipoPersona { get; set; }
+        public double ValorUnit { get; set; }
         [Required]
-        public int IdMunicipio { get; set; }
-        public TipoPersona TipoPersona { get; set; }
-        public Municipio Municipio { get; set; }
+        public int stockMin { get; set; }
+        [Required]
+        public int stockMax { get; set; }
         public ICollection<InsumoProveedor> InsumosProveedores { get; set; }
+        public ICollection<InsumoPrenda> InsumosPrendas { get; set; }
     }
 }

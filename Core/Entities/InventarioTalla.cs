@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace Core.Entities
 {
-    public class InsumoPrenda
+    public class InventarioTalla
     {
         [Required]
-        public int IdInsumo { get; set; }
+        public int IdInv { get; set; }
         [Required]
-        public int IdPrenda { get; set; }
+        public int IdTalla { get; set; }
         [Required]
         public int Cantidad { get; set; }
-        public Insumo Insumo { get; set; }
-        public Prenda Prenda { get; set; }
+        public Inventario Inventario { get; set; }
+        public Talla Talla { get; set; }
     }
 }
